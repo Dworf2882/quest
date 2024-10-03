@@ -28,8 +28,7 @@ def generate_launch_description():
             "/world/robots/model/vehicle1/link/lidar/sensor/laser/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan",
             "/world/robots/model/vehicle1/link/lidar/sensor/laser/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked"
             "/world/robots/model/vehicle2/link/lidar/sensor/laser/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan",
-            "/world/robots/model/vehicle2/link/lidar/sensor/laser/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked",
-            "/cmd_vel"
+            "/world/robots/model/vehicle2/link/lidar/sensor/laser/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked"
                     ],
         remappings=[
         ("/world/robots/model/chebu/link/lidar/sensor/laser/scan","/chebu/lidar"),
