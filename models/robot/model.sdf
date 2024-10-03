@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="robot">
+        <include merge="true">
+            <uri>models://HotWheels</uri>
+            <name>base</name>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        <include merge="true">
+            <uri>models://lidar</uri>
+            <name>lidar</name>
+            <pose>1 -.06 0.8 0 0 0</pose>
+        </include>
+        <include merge="true">
+            <uri>models://camera</uri>
+            <name>camera</name>
+            <pose>1 .06 0.8 0 0 0</pose>
+        </include>
+        <joint name="camera_joint" type="fixed">
+            <parent>chassis</parent>
+            <child>mono_cam/base_link</child>
+            <pose relative_to="chassis">1 .06 0.8 0 0 0</pose>
+        </joint>
+        <joint name="lidar_joint" type="fixed">
+            <parent>chassis</parent>
+            <child>lidar</child>
+            <pose relative_to="chassis">1 -.06 0.8 0 0 0</pose>
+        </joint>
+    </model>
+</sdf>
