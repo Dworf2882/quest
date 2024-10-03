@@ -34,7 +34,7 @@ def generate_launch_description():
         ("/world/robots/model/chebu/link/lidar/sensor/laser/scan","/chebu/lidar"),
                     ("/world/robots/model/chebu/link/lidar/sensor/laser/scan/points", "/chebu/lidar_points"),
                     ("/world/robots/model/vehicle1/link/lidar/sensor/laser/scan","/vehicle1/lidar"),
-                    ("/world/robots/model/vehicle1/link/lidar/sensor/laser/scan/points", "/vehicle1/lidar_points")
+                    ("/world/robots/model/vehicle1/link/lidar/sensor/laser/scan/points", "/vehicle1/lidar_points"),
                     ("/world/robots/model/vehicle2/link/lidar/sensor/laser/scan","/vehicle2/lidar"),
                     ("/world/robots/model/vehicle2/link/lidar/sensor/laser/scan/points", "/vehicle2/lidar_points")
         ],
