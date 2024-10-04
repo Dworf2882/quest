@@ -287,7 +287,7 @@
                 <wheel_separation>1.25</wheel_separation>
                 <wheel_radius>0.4</wheel_radius>
                 <odom_publish_frequency>1</odom_publish_frequency>
-                <topic>cmd_vel</topic>
+                <!-- <topic>cmd_vel</topic> -->
             </plugin>
         </model>
      
